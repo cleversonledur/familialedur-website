@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏡 Família Ledur — Genealogia e História
 
-## Getting Started
+Site dedicado à história e genealogia da família Ledur, traçando suas raízes desde a Lorena (fronteira França–Alemanha) até o Rio Grande do Sul, Brasil.
 
-First, run the development server:
+🔗 **[familialedur.com.br](https://familialedur.com.br)** _(em breve)_
+
+---
+
+## Sobre o Projeto
+
+A família Ledur tem uma história rica que atravessa séculos e continentes. Este site reúne pesquisa genealógica, documentos históricos e registros familiares para preservar e compartilhar essa memória.
+
+### Fontes Principais
+
+- 📖 **Da Lorena para o Brasil** — Christoph Heller e Tarso B. Ledur Kist (2024) — origens europeias da família
+- 📖 **OS LEDUR no Brasil** — João Roque Ledur (2006) — genealogia completa no Brasil
+
+### Período Coberto
+
+De **1659** (Joachim Harter, ancestral mais antigo documentado) até os dias atuais.
+
+---
+
+## Funcionalidades
+
+### 🌳 Árvore Genealógica Interativa
+Navegue por mais de **2.000 pessoas** conectadas na árvore familiar. Zoom, pan, busca por nome e detalhes ao clicar em cada pessoa.
+
+### 📅 Linha do Tempo
+Eventos históricos organizados por categoria — Europa, Imigração, Brasil e Família — com filtros interativos.
+
+### 📜 Documentos Históricos
+Certidões de nascimento e casamento digitalizadas com visualização em zoom. Inclui instruções para obter cópias oficiais junto ao Kreisarchiv Saarlouis.
+
+### 🔤 Sobrenomes
+Mais de **150 sobrenomes** conectados à família, com busca e filtro por origem (alemã, francesa, lorena).
+
+### 🇩🇪 Cidadania Alemã
+Guia sobre cidadania alemã por descendência (_jus sanguinis_), documentos necessários, arquivos e passos práticos.
+
+### 📍 Locais
+Mapa dos locais relevantes na Europa e no Brasil ligados à história da família.
+
+---
+
+## Tech Stack
+
+| Tecnologia | Uso |
+|---|---|
+| [Next.js 16](https://nextjs.org) | Framework React com App Router |
+| [React 19](https://react.dev) | Biblioteca de UI |
+| [TypeScript](https://typescriptlang.org) | Tipagem estática |
+| [Tailwind CSS 4](https://tailwindcss.com) | Estilização |
+
+O site é gerado como **HTML estático** (`output: "export"`) para hospedagem simples e rápida.
+
+---
+
+## Desenvolvimento
+
+### Pré-requisitos
+
+- Node.js 18+
+- npm
+
+### Instalação
+
+```bash
+git clone git@cleversonledur:cleversonledur/familialedur-website.git
+cd familialedur-website
+npm install
+```
+
+### Servidor de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build para produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Os arquivos estáticos são gerados na pasta `out/`, prontos para deploy em qualquer hospedagem estática (GitHub Pages, Netlify, Vercel, etc).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/                    # Rotas (App Router)
+│   ├── arvore/             # Árvore genealógica interativa
+│   ├── cidadania-alema/    # Guia de cidadania
+│   ├── documentos/         # Certidões e documentos
+│   ├── historia/           # História da família
+│   │   ├── origens/        #   Origens na Lorena
+│   │   ├── viagem/         #   Viagem no navio Olbers
+│   │   ├── colonizacao/    #   Colonização no RS
+│   │   └── cultura/        #   Cultura teuto-brasileira
+│   ├── livros/             # Livros de referência
+│   ├── locais/             # Locais históricos
+│   ├── sobre/              # Créditos e contato
+│   └── sobrenomes/         # Sobrenomes da família
+├── components/             # Componentes React
+│   ├── Header, Footer, Navigation, MobileMenu
+│   ├── FamilyTree, PersonNode, PersonDetail
+│   ├── Timeline
+│   └── ZoomableImage, SearchInput, Card
+└── data/                   # Dados estruturados (JSON)
+    ├── family-tree.json    # Árvore com 2000+ pessoas
+    ├── surnames.json       # Sobrenomes e origens
+    ├── places.json         # Locais históricos
+    └── timeline-events.json # Eventos da timeline
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto é pessoal e de uso familiar. O conteúdo histórico e genealógico é baseado nas obras citadas e em pesquisa familiar.
+
+---
+
+<p align="center">
+  Feito com ❤️ para preservar a memória da família Ledur.
+</p>

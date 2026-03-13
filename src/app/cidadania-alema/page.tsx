@@ -296,6 +296,75 @@ export default function CidadaniaAlemaPage() {
             </div>
           </section>
 
+          {/* Assessoria Especializada */}
+          <section>
+            <h2 className="mb-4 text-2xl font-bold sm:text-3xl">
+              Assessoria Especializada
+            </h2>
+            <div className="space-y-4 text-foreground/80 leading-relaxed">
+              <p>
+                Para auxiliar no processo de cidadania alemã, recomendamos a{" "}
+                <strong>Dra. Rafaela Kohnert</strong>, advogada, Mestre em
+                Direito e Especialista em Direito Internacional das Imigrações.
+                A Dra. Rafaela já possui experiência direta com o caso da
+                família Ledur e conhece as particularidades da nossa linhagem,
+                incluindo as questões históricas envolvendo a região da Lorena
+                e do Saarland.
+              </p>
+              <p>
+                Através da{" "}
+                <a
+                  href="https://rkinternacional.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary underline underline-offset-2 hover:text-primary-dark"
+                >
+                  RK Internacional
+                </a>
+                , ela oferece suporte completo: análise de viabilidade,
+                levantamento documental, comunicação com órgãos alemães,
+                preenchimento de formulários, organização do processo e
+                protocolo junto ao Bundesverwaltungsamt (BVA).
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a
+                  href="https://rkinternacional.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                  Site RK Internacional
+                </a>
+                <a
+                  href="https://www.instagram.com/rafaelakohnert/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border border-border bg-white px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted/50"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                  @rafaelakohnert
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-8">
+              <h3 className="mb-4 font-serif text-lg font-semibold text-primary-dark">
+                Saiba mais sobre cidadania alemã
+              </h3>
+              <div className="aspect-video w-full overflow-hidden rounded-lg border border-border">
+                <iframe
+                  src="https://www.youtube.com/embed/yJyiiUxVrwE"
+                  title="Cidadania Alemã - Saiba mais"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+            </div>
+          </section>
+
           {/* Aviso Legal Final */}
           <section>
             <div className="rounded-lg border border-accent/30 bg-accent/5 p-6">

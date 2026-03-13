@@ -17,8 +17,12 @@ import TreeControls from "./TreeControls";
 import { useTreeZoomPan } from "./useTreeZoomPan";
 import familyData from "@/data/family-tree.json";
 
-const LEVEL_HEIGHT = 120;
-const NODE_SPACING = 155;
+const LEVEL_HEIGHT = 160;
+const CHAIN_HEIGHT = 110;
+const COUPLE_OFFSET = 78;
+const SIBLING_GAP = 30;
+const COUPLE_MIN_WIDTH = 2 * COUPLE_OFFSET + NODE_WIDTH + SIBLING_GAP;
+const SINGLE_MIN_WIDTH = NODE_WIDTH + SIBLING_GAP;
 const INITIAL_DEPTH = 8;
 
 const LINK_STROKE = "#D6D3D1";
@@ -34,6 +38,7 @@ function TreeLink({
   child: TreeNode;
 }) {
   const parentHasSpouse = parent.person.spouses.length > 0;
+  const childHasSpouse = child.person.spouses.length > 0;
 
   const halfH = NODE_HEIGHT / 2;
 
@@ -41,7 +46,7 @@ function TreeLink({
     ? parent.y + halfH + TOGGLE_OFFSET + 10
     : parent.y + halfH + (parent.person.children.length > 0 ? TOGGLE_OFFSET + 10 : 0);
 
-  const endX = child.x;
+  const endX = childHasSpouse ? child.x - COUPLE_OFFSET : child.x;
   const endY = child.y - halfH;
 
   const midY = (startY + endY) / 2;
@@ -76,33 +81,37 @@ export default function FamilyTree() {
 
   const layoutTree = useCallback((root: TreeNode): TreeNode => {
     function computeWidth(node: TreeNode): number {
+      const minW = node.person.spouses.length > 0 ? COUPLE_MIN_WIDTH : SINGLE_MIN_WIDTH;
       if (node.collapsed || node.children.length === 0) {
-        return node.person.spouses.length > 0 ? 2 : 1;
+        return minW;
       }
-      let total = 0;
+      let childrenTotal = 0;
       for (const child of node.children) {
-        total += computeWidth(child);
+        childrenTotal += computeWidth(child);
       }
-      return total;
+      return Math.max(minW, childrenTotal);
     }
 
-    function assignPositions(node: TreeNode, xStart: number, depth: number): void {
+    function assignPositions(node: TreeNode, xStart: number, yPos: number, depth: number): void {
       const width = computeWidth(node);
-      node.x = xStart + (width * NODE_SPACING) / 2;
-      node.y = depth * LEVEL_HEIGHT;
+      node.x = xStart + width / 2;
+      node.y = yPos;
       node.depth = depth;
 
-      if (!node.collapsed) {
+      if (!node.collapsed && node.children.length > 0) {
+        const gap = node.children.length === 1 ? CHAIN_HEIGHT : LEVEL_HEIGHT;
+        const childY = yPos + gap;
+
         let currentX = xStart;
         for (const child of node.children) {
           const childWidth = computeWidth(child);
-          assignPositions(child, currentX, depth + 1);
-          currentX += childWidth * NODE_SPACING;
+          assignPositions(child, currentX, childY, depth + 1);
+          currentX += childWidth;
         }
       }
     }
 
-    assignPositions(root, 0, 0);
+    assignPositions(root, 0, 0, 0);
     return root;
   }, []);
 
@@ -302,8 +311,8 @@ export default function FamilyTree() {
 
             {visibleNodes.map((node) => {
               const hasSpouse = node.person.spouses.length > 0;
-              const personX = hasSpouse ? node.x - NODE_SPACING / 2 : node.x;
-              const spouseX = node.x + NODE_SPACING / 2;
+              const personX = hasSpouse ? node.x - COUPLE_OFFSET : node.x;
+              const spouseX = node.x + COUPLE_OFFSET;
               const hasChildren = node.person.children.length > 0;
               const accent = (GENDER_COLORS[node.person.gender] || GENDER_COLORS.U).accent;
 
