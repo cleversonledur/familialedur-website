@@ -2,8 +2,6 @@
 
 Site dedicado à história e genealogia da família Ledur, traçando suas raízes desde a Lorena (fronteira França–Alemanha) até o Rio Grande do Sul, Brasil.
 
-🔗 **[familialedur.com.br](https://familialedur.com.br)** _(em breve)_
-
 ---
 
 ## Sobre o Projeto
