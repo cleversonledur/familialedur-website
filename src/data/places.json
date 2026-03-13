@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Grosshemmersdorf",
+    "country": "Alemanha",
+    "region": "Saarland",
+    "lat": 49.4333,
+    "lng": 6.5833,
+    "description": "Localidade no Saarland onde nasceu Michel Ledur em 1797. Também local de nascimento de vários de seus irmãos, filhos de Johann Wilhelm Ledur e Suzanne Kieffer.",
+    "period": "1787-1828"
+  },
+  {
+    "name": "Hombourg-sur-Canner",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.1667,
+    "lng": 6.3833,
+    "description": "Localidade na Lorena onde viveu Joachim Harter (Ledur), o ancestral mais antigo documentado da família, nascido em 1659. Possui castelo histórico e registros paroquiais que documentam a família.",
+    "period": "1659-1750"
+  },
+  {
+    "name": "Guerstling",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.3167,
+    "lng": 6.5500,
+    "description": "Localidade na Lorena de onde era natural Suzanne Kieffer, que se casou com Johann Wilhelm Ledur. Registros paroquiais documentam a união.",
+    "period": "1755-1809"
+  },
+  {
+    "name": "Niedwelling",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.3000,
+    "lng": 6.5333,
+    "description": "Localidade na Lorena onde nasceu Susanne Ledur em 1795, filha de Francois (Franz) Ledur e Margarite Hilt.",
+    "period": "1790-1810"
+  },
+  {
+    "name": "Aboncourt",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.2167,
+    "lng": 6.3500,
+    "description": "Localidade na Lorena cujos registros paroquiais contêm informações sobre batismos e casamentos relacionados à família Ledur.",
+    "period": "1700-1800"
+  },
+  {
+    "name": "Bremen",
+    "country": "Alemanha",
+    "region": "Bremen",
+    "lat": 53.0793,
+    "lng": 8.8017,
+    "description": "Porto de onde partiu o navio Olbers em 1828, levando Michel Ledur, Margaretha Theobald e outros imigrantes rumo ao Brasil.",
+    "period": "1828"
+  },
+  {
+    "name": "São Leopoldo",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.7604,
+    "lng": -51.1472,
+    "description": "Primeiro assentamento da família Ledur no Brasil. Michel Ledur e Margaretha Theobald chegaram em 15 de março de 1829. Felipe Ledur, primeiro Ledur nascido no Brasil, nasceu aqui em abril de 1829.",
+    "period": "1829-1850"
+  },
+  {
+    "name": "Bom Princípio",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.4914,
+    "lng": -51.3536,
+    "description": "Localidade onde muitos descendentes de Michel Ledur se estabeleceram. Nicolau Ledur e Magdalena Goergen viveram aqui e criaram seus 14 filhos. Centro da família Ledur no século XIX.",
+    "period": "1845-1916"
+  },
+  {
+    "name": "Feliz",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.4522,
+    "lng": -51.3083,
+    "description": "Localidade próxima a Bom Princípio onde membros da família Ledur se estabeleceram. João Pedro Ledur viveu aqui antes de migrar para Cerro Largo em 1916.",
+    "period": "1870-1916"
+  },
+  {
+    "name": "Cerro Largo",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -28.1464,
+    "lng": -54.7358,
+    "description": "Município no noroeste do RS para onde João Pedro Ledur migrou com sua família em 1916. Tornou-se novo núcleo de descendentes Ledur no estado.",
+    "period": "1916-presente"
+  },
+  {
+    "name": "Santa Rosa",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -27.8708,
+    "lng": -54.4814,
+    "description": "Município no noroeste do RS onde nasceu João Roque Ledur, autor do livro 'OS LEDUR no Brasil', publicado em 2006.",
+    "period": "1930-presente"
+  },
+  {
+    "name": "Toledo",
+    "country": "Brasil",
+    "region": "Paraná",
+    "lat": -24.7136,
+    "lng": -53.7433,
+    "description": "Município no oeste do Paraná para onde migraram descendentes da família Ledur, expandindo a presença familiar para além do Rio Grande do Sul.",
+    "period": "1940-presente"
+  },
+  {
+    "name": "Capela Santana",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.5500,
+    "lng": -51.3167,
+    "description": "Paróquia histórica na região colonial onde ocorreram batismos e casamentos da família Ledur, incluindo o casamento de Nicolau Ledur e Magdalena Goergen em 1845.",
+    "period": "1840-1900"
+  }
+]
