@@ -60,8 +60,8 @@ export default function Footer() {
               Créditos
             </h3>
             <p className="text-sm text-background/70 leading-relaxed">
-              Baseado nas pesquisas de João Roque Ledur e Christoph Heller
-              &amp; Tarso B. Ledur Kist
+              Baseado em pesquisa genealógica no FamilySearch e nas obras de
+              João Roque Ledur e Christoph Heller &amp; Tarso B. Ledur Kist
             </p>
 
             <h3 className="text-xs font-semibold text-background/60 uppercase tracking-[0.2em] mb-3 mt-8">
