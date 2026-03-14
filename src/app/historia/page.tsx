@@ -18,7 +18,7 @@ const sections = [
     title: "A Viagem no Olbers",
     href: "/historia/viagem",
     summary:
-      "Em 1828, Michel e Margaretha Ledur embarcaram no navio Olbers, em Bremen, rumo ao Brasil. A travessia do Atlântico e a chegada a São Leopoldo em 15 de março de 1829.",
+      "Em 1828, Michel e Margaretha Ledur embarcaram no navio Olbers, em Bremen, rumo ao Brasil. A travessia do Atlântico e a chegada a São Leopoldo em 18 de março de 1829.",
   },
   {
     title: "Colonização no Rio Grande do Sul",
@@ -31,6 +31,12 @@ const sections = [
     href: "/historia/cultura",
     summary:
       "A identidade cultural única formada pela união das tradições germânicas com a vida no sul do Brasil. Língua, religião, gastronomia e festas que persistem até hoje.",
+  },
+  {
+    title: "Ledur Fest",
+    href: "/historia/ledur-fest",
+    summary:
+      "As reuniões da família Ledur em Cerro Largo, Bom Princípio e Santa Terezinha. Encontrar-nos é solidificar os laços que nos unem, buscando as raízes.",
   },
 ];
 
@@ -56,7 +62,10 @@ export default function HistoriaPage() {
           </h1>
           <p className="max-w-2xl text-lg leading-relaxed text-text-muted">
             Da Lorena europeia ao sul do Brasil, a trajetória de uma família que
-            cruzou o Atlântico em busca de uma nova vida. Conheça as origens, a
+            cruzou o Atlântico em busca de uma nova vida. Em 2024 completou-se o
+            bicentenário da primeira imigração alemã ao Brasil (chegada a São
+            Leopoldo em 25 de julho de 1824); a primeira onda seguiu até 1830,
+            com cerca de 6.000 alemães em 42 travessias. Conheça as origens, a
             viagem, a colonização e a cultura que os Ledur construíram ao longo
             de quase dois séculos no Brasil.
           </p>

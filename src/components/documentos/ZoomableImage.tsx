@@ -132,15 +132,14 @@ export default function ZoomableImage({
         className={`group relative block w-full cursor-zoom-in overflow-hidden rounded-xl border border-border bg-muted/30 transition-shadow hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 ${className}`}
         aria-label={`Ampliar imagem: ${alt}`}
       >
-        <div className="relative aspect-[3/4] w-full">
-          <Image
-            src={src}
-            alt={alt}
-            fill
-            className={`object-contain transition-transform group-hover:scale-[1.02] ${imageClassName}`}
-            sizes={sizes}
-          />
-        </div>
+        <Image
+          src={src}
+          alt={alt}
+          width={1200}
+          height={900}
+          className={`w-full h-auto transition-transform group-hover:scale-[1.02] ${imageClassName}`}
+          sizes={sizes}
+        />
         <span className="absolute inset-0 flex items-center justify-center rounded-xl bg-black/0 transition-colors group-hover:bg-black/20">
           <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white/95 text-primary-dark shadow-lg opacity-0 transition-opacity group-hover:opacity-100">
             <MagnifyingGlassIcon className="h-7 w-7" />

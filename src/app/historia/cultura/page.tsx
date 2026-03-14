@@ -110,7 +110,7 @@ export default function CulturaPage() {
 
           <section>
             <h2 className="mb-4 text-2xl font-semibold">
-              Gastronomia e festas
+              Gastronomia, festas e costumes
             </h2>
             <p className="mb-4">
               A culinária teuto-brasileira reflete de forma notável a fusão
@@ -120,13 +120,44 @@ export default function CulturaPage() {
               chucrute e as tortas que as famílias preparavam seguindo receitas
               trazidas da Europa.
             </p>
-            <p>
+            <p className="mb-4">
               As festas comunitárias, os Kerbs, celebravam o padroeiro da
               localidade e reuniam famílias de toda a região. Eram ocasiões de
               confraternização, com música, dança, comida farta e jogos
               tradicionais. O Kerb persistiu como uma das expressões culturais
               mais vivas da comunidade teuto-brasileira, celebrado até hoje em
-              muitas localidades do Rio Grande do Sul e do Paraná.
+              muitas localidades do Rio Grande do Sul e do Paraná. Outros
+              costumes documentados nas fontes incluem as celebrações de Natal e
+              Páscoa, o namoro e o casamento, sempre mesclando tradições germânicas
+              e adaptações locais.
+            </p>
+            <p>
+              As reuniões da família Ledur, as{" "}
+              <Link href="/historia/ledur-fest" className="font-medium text-primary hover:underline">
+                Ledur Fest
+              </Link>
+              , realizadas em Cerro Largo, Bom Princípio e Santa Terezinha,
+              continuam esse espírito de confraternização em torno das raízes
+              comuns.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-4 text-2xl font-semibold">
+              Música e &ldquo;A Canção Brasilien&rdquo;
+            </h2>
+            <p className="mb-4">
+              A música acompanhou os imigrantes na travessia e na nova vida. O
+              livro &ldquo;OS LEDUR no Brasil&rdquo; dedica um capítulo à
+              &ldquo;Canção Brasilien&rdquo;, canção da época da imigração que
+              ficou na memória das gerações seguintes como símbolo da decisão de
+              partir e da esperança no Brasil.
+            </p>
+            <p>
+              Nas comunidades teuto-brasileiras, a música — seja nas festas, nas
+              igrejas ou em casa — foi sempre um elo entre as gerações e uma
+              forma de preservar a língua e os sentimentos ligados à terra de
+              origem.
             </p>
           </section>
 
@@ -154,7 +185,7 @@ export default function CulturaPage() {
 
         <nav
           aria-label="Navegação entre páginas"
-          className="mt-16 flex items-center justify-between border-t border-border pt-8"
+          className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8"
         >
           <Link
             href="/historia/colonizacao"
@@ -162,12 +193,20 @@ export default function CulturaPage() {
           >
             &larr; Colonização no RS
           </Link>
-          <Link
-            href="/historia"
-            className="text-sm font-medium text-primary-light transition-colors hover:text-primary"
-          >
-            Voltar à História &rarr;
-          </Link>
+          <div className="flex gap-4">
+            <Link
+              href="/historia/ledur-fest"
+              className="text-sm font-medium text-primary transition-colors hover:text-primary-dark"
+            >
+              Ledur Fest
+            </Link>
+            <Link
+              href="/historia"
+              className="text-sm font-medium text-primary-light transition-colors hover:text-primary"
+            >
+              Voltar à História &rarr;
+            </Link>
+          </div>
         </nav>
       </article>
     </main>

@@ -60,6 +60,12 @@
     "category": "europe"
   },
   {
+    "year": 1816,
+    "title": "\"Ano sem verão\" na Europa",
+    "description": "Erupção vulcânica na Indonésia provoca queda de temperatura, perdas de colheitas, fomes e epidemias na Europa e na América do Norte.",
+    "category": "europe"
+  },
+  {
     "year": 1820,
     "title": "Crise econômica na Lorena e Saarland",
     "description": "A região da Lorena e Saarland enfrenta dificuldades econômicas no período pós-napoleônico, motivando famílias a considerar a emigração para as Américas.",
@@ -68,20 +74,32 @@
   {
     "year": 1824,
     "title": "Início da colonização alemã no sul do Brasil",
-    "description": "O governo imperial brasileiro inicia o projeto de colonização no Rio Grande do Sul com a fundação de São Leopoldo, atraindo imigrantes germânicos.",
+    "description": "Chegada dos primeiros imigrantes alemães a São Leopoldo (25 de julho de 1824). O bicentenário foi celebrado em 2024. Primeira onda até 1830: cerca de 6.000 alemães em 42 travessias.",
     "category": "brazil"
+  },
+  {
+    "year": 1827,
+    "title": "Bremen restringe emigração",
+    "description": "Na primavera de 1827, Bremen rejeita cerca de 3.000 emigrantes do sul da Alemanha (Württemberg) e fecha acessos por Minden, Osnabrück e Münster.",
+    "category": "europe"
   },
   {
     "year": 1828,
     "title": "Embarque no navio Olbers em Bremen",
-    "description": "Michel Ledur e sua esposa Margaretha Theobald embarcam no navio Olbers no porto de Bremen, rumo ao Brasil, deixando para trás a vida na Europa.",
+    "description": "Em 26 de setembro de 1828, Michel Ledur e Margaretha Theobald embarcam no navio Olbers no porto de Bremen, rumo ao Brasil, após cerca de 13 semanas de espera no albergue Vor dem Bunten Tore.",
     "category": "migration"
   },
   {
     "year": 1829,
     "title": "Chegada em São Leopoldo",
-    "description": "Em 15 de março de 1829, Michel Ledur e Margaretha Theobald chegam a São Leopoldo, Rio Grande do Sul, após meses de viagem transatlântica.",
+    "description": "Em 18 de março de 1829, Michel Ledur e Margaretha Theobald chegam a São Leopoldo, Rio Grande do Sul, conforme registro de desembarque do Arquivo Histórico do RS.",
     "category": "migration"
+  },
+  {
+    "year": 1845,
+    "title": "Retomada da emigração alemã ao Brasil",
+    "description": "Após a suspensão do recrutamento pelo governo, a emigração alemã para o Brasil é retomada. O Olbers havia sido um dos penúltimos navios Bremen–Brasil.",
+    "category": "europe"
   },
   {
     "year": 1829,
@@ -176,7 +194,7 @@
   {
     "year": 2006,
     "title": "Publicação de 'OS LEDUR no Brasil'",
-    "description": "João Roque Ledur publica o livro 'OS LEDUR no Brasil', documentando a genealogia da família desde a chegada de Michel Ledur até as gerações contemporâneas.",
+    "description": "João Roque Ledur publica o livro 'OS LEDUR no Brasil', documentando a genealogia da família desde a chegada de Michel Ledur até as gerações contemporâneas. Inclui histórico das Ledur Fest (Cerro Largo, Bom Princípio, Santa Terezinha).",
     "category": "family"
   },
   {
@@ -184,5 +202,11 @@
     "title": "Publicação de 'Da Lorena para o Brasil'",
     "description": "Christoph Heller e Tarso Kist publicam 'Da Lorena para o Brasil', revelando as origens europeias da família Ledur e conectando a genealogia até Joachim Harter em 1659.",
     "category": "family"
+  },
+  {
+    "year": 2024,
+    "title": "Bicentenário da imigração alemã ao Brasil",
+    "description": "Celebração dos 200 anos da chegada dos primeiros imigrantes alemães a São Leopoldo (25 de julho de 1824).",
+    "category": "brazil"
   }
 ]

@@ -112,21 +112,10 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                     className={clsx(
                       "overflow-hidden transition-all duration-200",
                       expandedItem === link.href
-                        ? "max-h-64 opacity-100"
+                        ? "max-h-80 opacity-100"
                         : "max-h-0 opacity-0"
                     )}
                   >
-                    <Link
-                      href={link.href}
-                      className={clsx(
-                        "block pl-10 pr-6 py-2.5 text-sm transition-colors",
-                        pathname === link.href
-                          ? "text-primary-dark font-medium"
-                          : "text-text-muted hover:text-primary"
-                      )}
-                    >
-                      Visão Geral
-                    </Link>
                     {link.children.map((child) => (
                       <Link
                         key={child.href}

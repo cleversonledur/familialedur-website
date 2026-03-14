@@ -170,10 +170,44 @@ export default function FamilyTree() {
 
   const handleToggle = useCallback(
     (node: TreeNode) => {
+      // Mantém o foco visual no nó (pais) ao colapsar/expandir filhos
+      const focusId = node.person.id;
+      const prevX = node.x;
+      const prevY = node.y;
+
       toggleNode(node, index);
-      setTree((prev) => (prev ? { ...prev } : null));
+
+      setTree((prev) => {
+        if (!prev) return prev;
+
+        // Recalcula o layout com o novo estado de colapso
+        const laid = layoutTree(prev);
+        const allNodes = flattenTree(laid);
+        const newNode = allNodes.find((n) => n.person.id === focusId);
+
+        if (newNode && containerSize.width > 0 && containerSize.height > 0) {
+          // Mantém o mesmo nível de zoom, ajustando apenas o pan
+          const k = transform.k;
+
+          // Posição de tela antes da mudança
+          const screenX = prevX * k + transform.x;
+          const screenY = prevY * k + transform.y;
+
+          // Novo pan para manter o nó no mesmo ponto de tela
+          const nextX = screenX - newNode.x * k;
+          const nextY = screenY - newNode.y * k;
+
+          setTransform({
+            x: nextX,
+            y: nextY,
+            k,
+          });
+        }
+
+        return { ...prev };
+      });
     },
-    [index]
+    [index, layoutTree, containerSize.width, containerSize.height, transform, setTransform]
   );
 
   const handleSearch = useCallback(

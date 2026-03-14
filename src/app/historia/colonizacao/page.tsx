@@ -72,21 +72,24 @@ export default function ColonizacaoPage() {
               Os primeiros tempos na nova terra foram marcados por trabalho
               intenso e perdas dolorosas. A família precisou derrubar mata,
               preparar o solo e construir abrigo, tudo em um ambiente
-              completamente diferente do que conheciam na Europa.
+              completamente diferente do que conheciam na Europa. O destino
+              inicial foi São Leopoldo; outras fontes citam também São
+              Sebastião do Caí e São Vendelino, localidades da mesma região
+              colonial.
             </p>
             <p className="mb-4">
               Apenas 37 dias após a chegada ao Brasil, a família enfrentou sua
-              primeira grande tragédia: o pequeno João, o filho mais novo, que
-              tinha cerca de dois anos, faleceu. As causas exatas são
-              desconhecidas, mas as condições precárias, as doenças tropicais e
-              o esgotamento da longa viagem certamente contribuíram.
+              primeira grande tragédia: o pequeno João (Johannes), o filho mais
+              novo, com cerca de dois anos e meio, faleceu. Pouco antes, em São
+              Leopoldo, tinha nascido o irmão Felipe (Philipp), em 12 de abril de
+              1829 — o primeiro Ledur nascido em solo brasileiro. As causas da
+              morte de João são desconhecidas; as condições precárias, as
+              doenças tropicais e o esgotamento da longa viagem certamente
+              contribuíram.
             </p>
             <p>
-              Porém, junto com a dor, veio também nova vida. Em 12 de abril de
-              1829, menos de um mês após a chegada, nasceu Felipe Ledur, o
-              primeiro membro da família a nascer em solo brasileiro. Seu
-              nascimento simbolizou o início de uma nova geração, enraizada na
-              terra que se tornaria o lar definitivo da família.
+              O nascimento de Felipe simbolizou o início de uma nova geração,
+              enraizada na terra que se tornaria o lar definitivo da família.
             </p>
           </section>
 
@@ -145,13 +148,40 @@ export default function ColonizacaoPage() {
               Rosa, outro polo colonial no noroeste gaúcho, foi destino de
               outros descendentes.
             </p>
-            <p>
+            <p className="mb-4">
               A expansão não se limitou ao Rio Grande do Sul. Com a abertura de
               novas frentes de colonização no Paraná, membros da família
               migraram para Toledo, levando consigo a cultura e as tradições
-              herdadas dos pioneiros. Essa dispersão geográfica é testemunho da
-              vitalidade e da determinação que caracterizaram os Ledur desde a
-              chegada ao Brasil.
+              herdadas dos pioneiros.
+            </p>
+            <p className="mb-4">
+              Segundo o livro &ldquo;OS LEDUR no Brasil&rdquo;, há descendentes
+              Ledur em praticamente todo o Brasil: RS, SC, PR (Curitiba, oeste,
+              sudoeste, sul), MT, RR, RO, AC, PA, MA, GO, TO, RJ, BA, SP, MG, DF,
+              além do Paraguai, Argentina, Itália, EUA e Alemanha. O autor
+              percorreu cerca de 50.000 km para reunir a genealogia.
+            </p>
+            <p>
+              Essa dispersão geográfica é testemunho da vitalidade e da
+              determinação que caracterizaram os Ledur desde a chegada ao Brasil.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-4 text-2xl font-semibold">
+              Século XX: guerras e continuidade
+            </h2>
+            <p className="mb-4">
+              O livro &ldquo;Da Lorena para o Brasil&rdquo; registra participantes
+              da família nas duas guerras mundiais, na Europa: Nikolaus Ledure
+              (1893–1917), François Jean Ledur (1894–?), Nicolas Ledur
+              (1898–1918), Jean François Nicolas Ledur (1921–1945). São
+              descendentes dos ramos que permaneceram na Lorena/Sarre.
+            </p>
+            <p>
+              No Brasil, a família seguiu se expandindo e se reunindo em
+              encontros como as Ledur Fest (Cerro Largo, Bom Princípio, Santa
+              Terezinha), mantendo vivos os laços e as raízes comuns.
             </p>
           </section>
         </div>

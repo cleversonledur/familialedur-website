@@ -42,11 +42,39 @@
     "region": "Lorena"
   },
   {
-    "name": "Scheyer",
+    "name": "Scheuer",
     "origin": "German",
     "meaning": "Possivelmente relacionado à localidade de Scheyern ou à profissão de ceifeiro",
-    "connection": "Barbara Scheyer casou-se com Pierre Ledur, irmão de Michel",
-    "region": "Saarland"
+    "connection": "Barbara Scheuer casou-se com Peter (Pierre) Ledur em Rehlingen (1824), irmão de Michel. O casal teve seis filhos.",
+    "region": "Rehlingen, Sarre"
+  },
+  {
+    "name": "Contelly",
+    "origin": "Lorraine",
+    "meaning": "Sobrenome de origem lorenesa",
+    "connection": "Anne Contelly casou-se com Franz Ledur em Freistroff (1826). Franz faleceu em Trois Maisons, Mosela.",
+    "region": "Freistroff, Lorena"
+  },
+  {
+    "name": "Wilbois",
+    "origin": "Lorraine",
+    "meaning": "Sobrenome de origem lorenesa",
+    "connection": "Anna Elisabeth Wilbois, viúva de Joachim Ledur (1739), mudou-se para Holbing com os filhos.",
+    "region": "Lorena"
+  },
+  {
+    "name": "Klein",
+    "origin": "German",
+    "meaning": "Significa 'pequeno' em alemão",
+    "connection": "Magdalena Klein, natural de Niedwelling-Guerstling, casou-se com Simon Ledur por volta de 1755.",
+    "region": "Guerstling, Lorena"
+  },
+  {
+    "name": "Monter",
+    "origin": "Lorraine",
+    "meaning": "Sobrenome ainda presente na região",
+    "connection": "Johanna Monter casou-se com Michael Theobald. A família Monter ainda hoje vive em Hemmersdorf.",
+    "region": "Hemmersdorf, Sarre"
   },
   {
     "name": "Hilt",

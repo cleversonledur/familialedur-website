@@ -191,7 +191,8 @@ export default function CidadaniaAlemaPage() {
             <div className="space-y-4 text-foreground/80 leading-relaxed">
               <p>
                 A pesquisa documental para o caso Ledur envolve fontes em
-                vários países e instituições:
+                vários países e instituições, além de registros digitais no
+                FamilySearch relacionados a Michel Ledur.
               </p>
 
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -241,6 +242,34 @@ export default function CidadaniaAlemaPage() {
                     administrativos, censos e documentos relacionados à
                     emigração no século XIX.
                   </p>
+                </div>
+
+                <div className="rounded-lg border border-border bg-muted/30 p-4">
+                  <h3 className="font-serif text-lg font-semibold text-primary-dark">
+                    FamilySearch (Michel Ledur)
+                  </h3>
+                  <p className="mt-2 text-sm">
+                    Base de dados genealógica online que reúne registros
+                    digitalizados e indexados de diversas partes do mundo.
+                    Para a família Ledur, os registros associados a Michel
+                    Ledur e seus descendentes ajudam a confirmar informações
+                    de batismo, casamento e óbito.
+                  </p>
+                  <p className="mt-2 text-sm">
+                    A plataforma exige cadastro gratuito para acesso completo
+                    aos registros.
+                  </p>
+                  <a
+                    href="https://www.familysearch.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-primary underline underline-offset-2 hover:text-primary-dark"
+                  >
+                    Acessar FamilySearch
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M6 4L10 8L6 12" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>

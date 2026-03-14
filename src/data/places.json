@@ -50,8 +50,71 @@
     "region": "Bremen",
     "lat": 53.0793,
     "lng": 8.8017,
-    "description": "Porto de onde partiu o navio Olbers em 1828, levando Michel Ledur, Margaretha Theobald e outros imigrantes rumo ao Brasil.",
+    "description": "Porto de onde partiu o navio Olbers em 1828 (26 de setembro). Os emigrantes esperaram cerca de 13 semanas no albergue 'Vor dem Bunten Tore' (Buntentor) por ventos favoráveis.",
     "period": "1828"
+  },
+  {
+    "name": "Buntentor (Südertor)",
+    "country": "Alemanha",
+    "region": "Bremen",
+    "lat": 53.0750,
+    "lng": 8.8080,
+    "description": "Parte das fortificações de Bremen (c. 1620–1861); bairro onde ficava o albergue dos emigrantes que aguardavam embarque para o Brasil.",
+    "period": "1828"
+  },
+  {
+    "name": "Rehlingen",
+    "country": "Alemanha",
+    "region": "Sarre",
+    "lat": 49.3667,
+    "lng": 6.5333,
+    "description": "Localidade onde Peter (Pierre) Ledur casou-se com Barbara Scheuer em 1824. O casal teve seis filhos.",
+    "period": "1824-1850"
+  },
+  {
+    "name": "Freistroff",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.2833,
+    "lng": 6.4833,
+    "description": "Localidade onde Franz Ledur casou-se com Anne Contelly em 1826.",
+    "period": "1826"
+  },
+  {
+    "name": "Trois Maisons",
+    "country": "França",
+    "region": "Lorena (Moselle)",
+    "lat": 49.3500,
+    "lng": 6.4667,
+    "description": "Perto de Villing, Mosela. Franz Ledur faleceu aqui após ter se casado em Freistroff.",
+    "period": "1826-1850"
+  },
+  {
+    "name": "Holbing",
+    "country": "França",
+    "region": "Lorena",
+    "lat": 49.2500,
+    "lng": 6.4000,
+    "description": "Para onde Anna Elisabeth Wilbois mudou-se com os filhos após a morte de Joachim Ledur (1739).",
+    "period": "1739-1750"
+  },
+  {
+    "name": "São Sebastião do Caí",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.5869,
+    "lng": -51.3753,
+    "description": "Localidade da região colonial citada em fontes como destino inicial de famílias Ledur junto com São Leopoldo.",
+    "period": "1829-1850"
+  },
+  {
+    "name": "São Vendelino",
+    "country": "Brasil",
+    "region": "Rio Grande do Sul",
+    "lat": -29.3667,
+    "lng": -51.3833,
+    "description": "Município na região do Vale do Caí, citado em fontes como local de estabelecimento de descendentes Ledur.",
+    "period": "1850-presente"
   },
   {
     "name": "São Leopoldo",
@@ -59,7 +122,7 @@
     "region": "Rio Grande do Sul",
     "lat": -29.7604,
     "lng": -51.1472,
-    "description": "Primeiro assentamento da família Ledur no Brasil. Michel Ledur e Margaretha Theobald chegaram em 15 de março de 1829. Felipe Ledur, primeiro Ledur nascido no Brasil, nasceu aqui em abril de 1829.",
+    "description": "Primeiro assentamento da família Ledur no Brasil. Michel Ledur e Margaretha Theobald chegaram em 18 de março de 1829, conforme registro de desembarque. Felipe Ledur, primeiro Ledur nascido no Brasil, nasceu aqui em 12 de abril de 1829.",
     "period": "1829-1850"
   },
   {

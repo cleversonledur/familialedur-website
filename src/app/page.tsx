@@ -277,11 +277,35 @@ export default function Home() {
               Fontes
             </h2>
             <p className="text-background/70 max-w-md mx-auto">
-              As obras que fundamentam este projeto
+              As obras que fundamentam este projeto, complementadas por registros
+              digitais no FamilySearch relacionados a Michel Ledur.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <article className="rounded-xl border border-background/10 bg-background/5 backdrop-blur-sm p-7 hover:bg-background/8 transition-colors duration-300">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article className="rounded-xl border border-background/10 bg-background/5 backdrop-blur-sm p-7 hover:bg-background/8 transition-colors duration-300">
+              <p className="text-xs font-medium text-accent uppercase tracking-widest mb-3">
+                Registros digitais
+              </p>
+              <h3 className="font-serif text-xl font-semibold text-background mb-2">
+                FamilySearch (Michel Ledur)
+              </h3>
+              <p className="text-sm text-background/75 mb-4">
+                Registros indexados de batismo, casamento e outros eventos ligados
+                a Michel Ledur e sua família, preservados em formato digital.
+              </p>
+              <a
+                href="https://www.familysearch.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-light transition-colors"
+              >
+                Acessar FamilySearch
+                <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M6 4L10 8L6 12" />
+                </svg>
+              </a>
+            </article>
+                        <article className="rounded-xl border border-background/10 bg-background/5 backdrop-blur-sm p-7 hover:bg-background/8 transition-colors duration-300">
               <p className="text-xs font-medium text-accent uppercase tracking-widest mb-3">
                 2024
               </p>

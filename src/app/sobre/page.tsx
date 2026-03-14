@@ -65,6 +65,32 @@ export default function SobrePage() {
           <section>
             <h2 className="mb-4 text-2xl font-bold sm:text-3xl">Fontes</h2>
             <div className="space-y-6">
+            <div className="rounded-xl border border-border bg-muted/30 p-6">
+                <h3 className="font-serif text-lg font-semibold text-primary-dark">
+                  FamilySearch — Registros de Michel Ledur
+                </h3>
+                <p className="mt-3 text-sm text-foreground/80 leading-relaxed">
+                  Plataforma de pesquisa genealógica mantida pela Church of
+                  Jesus Christ of Latter-day Saints, que reúne milhões de
+                  registros digitalizados e indexados ao redor do mundo.
+                </p>
+                <p className="mt-1 text-sm text-foreground/80">
+                  Para o caso Ledur, são especialmente relevantes os registros
+                  associados a Michel Ledur e seus familiares, que ajudam a
+                  confirmar datas, locais e vínculos familiares.
+                </p>
+                <a
+                  href="https://www.familysearch.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                >
+                  Acessar FamilySearch
+                  <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M6 4L10 8L6 12" />
+                  </svg>
+                </a>
+              </div>
               <div className="rounded-xl border border-border bg-muted/30 p-6">
                 <h3 className="font-serif text-lg font-semibold text-primary-dark">
                   Da Lorena para o Brasil: a história das famílias Ledur,
@@ -119,24 +145,12 @@ export default function SobrePage() {
                   Ledur no Brasil, registrando a descendência desde a
                   chegada de Michel Ledur até as gerações contemporâneas,
                   com detalhado levantamento de nomes, datas e localidades.
+                  O Anexo 7 lista sacerdotes descendentes do imigrante Ledur.
                 </p>
               </div>
-            </div>
-          </section>
-
-          {/* Aviso importante */}
-          <section>
-            <div className="rounded-lg border border-accent/30 bg-accent/5 p-6">
-              <h2 className="mb-3 text-xl font-bold text-accent">
-                Aviso importante
-              </h2>
-              <p className="text-sm leading-relaxed text-foreground/80">
-                Este site apresenta informações resumidas e reestruturadas
-                a partir das obras citadas. Nenhum texto foi copiado
-                literalmente. Para a pesquisa completa, com todas as
-                fontes, notas e detalhes, os leitores são encorajados a
-                obter os livros originais, que contêm o trabalho integral
-                dos autores.
+              <p className="text-sm text-text-muted leading-relaxed">
+                Além dessas obras, também foram consultados registros digitais no
+                FamilySearch relacionados a Michel Ledur e seus descendentes.
               </p>
             </div>
           </section>

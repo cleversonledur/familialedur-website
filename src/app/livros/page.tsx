@@ -40,7 +40,7 @@ export default function LivrosPage() {
               <div className="relative h-64 w-40 shrink-0 overflow-hidden rounded-lg border border-border bg-muted/30 shadow-md">
                 <Image
                   src="/documentos/delorenaparabrasil-capa.png"
-                  alt="Capa do livro Da Lorena para o Brasil"
+                  alt="Capa do livro Da Lorena para o Brasil: foto de casa em Hemmersdorf no estilo típico da Lorena"
                   fill
                   className="object-cover"
                   sizes="160px"
@@ -65,11 +65,23 @@ export default function LivrosPage() {
                 <p className="mt-1 text-sm text-foreground/80">
                   <strong>ISBN:</strong> 978-65-01-05730-9
                 </p>
+                <p className="mt-2 text-xs text-text-muted">
+                  Capa: casa em Hemmersdorf no estilo típico da Lorena (cortesia
+                  Erich Mellinger e Maria Cawelius Mellinger). Restam poucos
+                  exemplos na região.
+                </p>
                 <p className="mt-4 leading-relaxed text-foreground/85">
                   Pesquisa aprofundada que conecta as origens europeias da
                   família Ledur, desde Joachim Harter em 1659 na Lorena, até a
-                  emigração para o Brasil no século XIX. Documenta o contexto
-                  histórico da região fronteiriça entre França e Alemanha.
+                  emigração para o Brasil no século XIX. Contém mais de uma
+                  centena de cópias de mapas, fotos aéreas, lápides, placas,
+                  certidões, listas de moradores e de baixas de exércitos, com
+                  centenas de sobrenomes na documentação. Utiliza o sistema
+                  d&apos;Aboville (Saragossa) para numerar gerações (n = nascido,
+                  f = falecido, c = casamento; segundas e terceiras núpcias eram
+                  comuns na época, dada a mortalidade e poucos divórcios).
+                  Documenta o contexto histórico da região fronteiriça entre
+                  França e Alemanha.
                 </p>
                 <a
                   href="https://www.mercadolivre.com.br/livro/up/MLBU1761191681"
@@ -131,7 +143,11 @@ export default function LivrosPage() {
                   Obra pioneira na documentação da genealogia da família Ledur
                   no Brasil, registrando a descendência desde a chegada de Michel
                   Ledur até as gerações contemporâneas, com detalhado
-                  levantamento de nomes, datas e localidades.
+                  levantamento de nomes, datas e localidades. Inclui o brasão da
+                  família Ledur, capítulo sobre a &ldquo;Canção Brasilien&rdquo;,
+                  costumes (Natal, Páscoa, namoro, casamento, música) e anexos
+                  como a relação de sacerdotes descendentes do imigrante (Anexo
+                  7). Revisão gramatical: Douglas Wisniewski.
                 </p>
                 <a
                   href="https://www.facebook.com/groups/1463558373877835"
