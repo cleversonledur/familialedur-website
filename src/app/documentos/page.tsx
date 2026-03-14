@@ -3,9 +3,14 @@ import Link from "next/link";
 import ZoomableImage from "@/components/documentos/ZoomableImage";
 
 export const metadata: Metadata = {
-  title: "Documentos",
+  title: "Documentos Históricos - Família Ledur",
   description:
-    "Certidões e fontes documentais de Michel Ledur: nascimento, casamento e como obter cópias oficiais do Kreisarchiv Saarlouis.",
+    "Certidões de nascimento e casamento de Michel Ledur (Grosshemmersdorf, 1797), registro de desembarque no Brasil (1829) e como obter cópias do Kreisarchiv Saarlouis.",
+  openGraph: {
+    title: "Documentos Históricos - Família Ledur",
+    description:
+      "Certidões originais de Michel Ledur e registro de entrada no Brasil (1829).",
+  },
 };
 
 export default function DocumentosPage() {

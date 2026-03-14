@@ -5,7 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "A Viagem no Olbers - História da Família Ledur",
   description:
-    "A travessia do Atlântico no navio Olbers, de Bremen ao Brasil, em 1828-1829.",
+    "A travessia do Atlântico no navio Olbers (41,50m, 875 passageiros), de Bremen ao Rio Grande do Sul em 1828-1829. Registro de desembarque de Michel Ledur e família em 18 de março de 1829.",
+  openGraph: {
+    title: "A Viagem no Navio Olbers - Família Ledur",
+    description:
+      "De Bremen ao Brasil: a travessia da família Ledur no navio Olbers (1828-1829).",
+  },
 };
 
 export default function ViagemPage() {

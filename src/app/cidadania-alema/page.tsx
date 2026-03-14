@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Cidadania Alemã",
+  title: "Cidadania Alemã por Descendência - Família Ledur",
   description:
-    "Informações sobre cidadania alemã por descendência e o caso da família Ledur.",
+    "Como obter cidadania alemã por descendência: requisitos, documentos necessários, Kreisarchiv Saarlouis, BVA e o caso dos descendentes de Michel Ledur (Grosshemmersdorf, 1797).",
+  openGraph: {
+    title: "Cidadania Alemã por Descendência - Família Ledur",
+    description:
+      "Guia para descendentes de imigrantes alemães: documentos, processo e o caso Ledur.",
+  },
 };
 
 export default function CidadaniaAlemaPage() {

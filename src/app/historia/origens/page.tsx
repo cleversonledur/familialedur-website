@@ -4,7 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Origens na Lorena - História da Família Ledur",
   description:
-    "As raízes da família Ledur na região da Lorena, fronteira entre França e Alemanha.",
+    "As raízes da família Ledur na Lorena (França/Alemanha): de Joachim Harter (1659) em Hombourg-sur-Canner a Michel Ledur (1797) em Grosshemmersdorf, Saarland.",
+  openGraph: {
+    title: "Origens na Lorena - Família Ledur",
+    description:
+      "De Joachim Harter (1659) a Michel Ledur (1797): a história da família na fronteira franco-alemã.",
+  },
 };
 
 export default function OrigensPage() {

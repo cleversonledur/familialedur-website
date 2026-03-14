@@ -4,7 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Colonização no Rio Grande do Sul - História da Família Ledur",
   description:
-    "O estabelecimento e a expansão da família Ledur nas colônias alemãs do Rio Grande do Sul.",
+    "O estabelecimento da família Ledur nas colônias alemãs do RS: São Leopoldo, Bom Princípio, Feliz, Cerro Largo, Santa Rosa e expansão para PR, SC e todo o Brasil.",
+  openGraph: {
+    title: "Colonização no RS - Família Ledur",
+    description:
+      "De São Leopoldo a todo o Brasil: a expansão da família Ledur desde 1829.",
+  },
 };
 
 export default function ColonizacaoPage() {

@@ -4,7 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Cultura Teuto-Brasileira - História da Família Ledur",
   description:
-    "A identidade cultural formada pela união das tradições germânicas com a vida no sul do Brasil.",
+    "A identidade teuto-brasileira da família Ledur: dialeto Hunsrueckisch, Kerb, gastronomia, religião, Canção Brasilien e as Ledur Fest.",
+  openGraph: {
+    title: "Cultura Teuto-Brasileira - Família Ledur",
+    description:
+      "Língua, festas, gastronomia e tradições germânicas no sul do Brasil.",
+  },
 };
 
 export default function CulturaPage() {

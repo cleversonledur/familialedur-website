@@ -2,9 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sobre",
+  title: "Sobre o Projeto - Família Ledur",
   description:
-    "Sobre o projeto Família Ledur, fontes utilizadas e créditos.",
+    "Sobre o projeto Família Ledur: fontes, créditos, FamilySearch, Kreisarchiv Saarlouis e como contribuir com informações e correções.",
+  openGraph: {
+    title: "Sobre o Projeto - Família Ledur",
+    description: "Fontes, créditos e como contribuir para o projeto genealógico.",
+  },
 };
 
 export default function SobrePage() {

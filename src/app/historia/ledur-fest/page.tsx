@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Ledur Fest - História da Família Ledur",
+  title: "Ledur Fest - Reuniões da Família Ledur",
   description:
-    "Histórico das reuniões da família Ledur: Cerro Largo, Bom Princípio e Santa Terezinha.",
+    "As Ledur Fest: reuniões dos descendentes de Michel Ledur em Cerro Largo, Bom Princípio e Santa Terezinha. Encontrar-nos é solidificar os laços que nos unem.",
+  openGraph: {
+    title: "Ledur Fest - Reuniões da Família",
+    description:
+      "Encontros de descendentes Ledur em Cerro Largo, Bom Princípio e Santa Terezinha.",
+  },
 };
 
 export default function LedurFestPage() {

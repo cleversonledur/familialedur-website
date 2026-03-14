@@ -3,9 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Livros",
+  title: "Livros sobre a Família Ledur",
   description:
-    "Livros que contam a história da família Ledur: Da Lorena para o Brasil e OS LEDUR no Brasil.",
+    "Livros de referência: 'Da Lorena para o Brasil' (Heller & Kist, 2024) e 'OS LEDUR no Brasil' (João Roque Ledur, 2006). Genealogia e história da imigração alemã.",
+  openGraph: {
+    title: "Livros sobre a Família Ledur",
+    description:
+      "Da Lorena para o Brasil e OS LEDUR no Brasil: as obras que documentam a família.",
+  },
 };
 
 export default function LivrosPage() {

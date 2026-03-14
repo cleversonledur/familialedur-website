@@ -4,7 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "História da Família Ledur",
   description:
-    "A trajetória da família Ledur, da Lorena europeia até o sul do Brasil.",
+    "A trajetória da família Ledur desde 1659: origens na Lorena, a viagem no navio Olbers (1828), colonização no Rio Grande do Sul e cultura teuto-brasileira.",
+  openGraph: {
+    title: "História da Família Ledur",
+    description:
+      "Da Lorena ao Brasil: origens, viagem no Olbers, colonização no RS e cultura teuto-brasileira.",
+  },
 };
 
 const sections = [
